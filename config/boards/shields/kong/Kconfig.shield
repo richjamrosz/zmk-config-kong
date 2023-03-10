@@ -1,0 +1,2 @@
+config SHIELD_KONG
+   def_bool $(shields_list_contains,kong)
